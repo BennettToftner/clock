@@ -10,6 +10,7 @@ setInterval(updateClock, DELAY);
 
 function updateClock()
 {
+	d = new Date();
 	var ms = d.getTime();
 	var s = 5;
 	debug.innerHTML = ms;
